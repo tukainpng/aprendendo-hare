@@ -6,7 +6,7 @@ use io;
 
 export fn main() void = {
 	if (len(os::args) < 2) {
-		fmt::fatalf("Uso: {} <input>", os::args[0]);
+		fmt::fatalf("Uso: {} [opções] <input>", os::args[0]);
 	};
 
 
