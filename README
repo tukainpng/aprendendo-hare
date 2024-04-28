@@ -1,5 +1,3 @@
-# Aprendendo Hare
-
 Eu não sou um programador Ainda assim, eu tenho interesse em aprender a
 programar, e a linguagem que eu escolhi para aprender foi a Hare
 
@@ -8,3 +6,6 @@ python, ou pior ainda, javascript.
 
 Links:
 - Hare (https://harelang.org/).
+
+Você pode clonar esse repotitório digitando o seguinte comando:
+$ git clone https://git.cbps.xyz/guapito/aprendendo-hare
