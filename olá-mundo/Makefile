@@ -1,2 +1,2 @@
 compile:
-	hare build main.ha
+	hare build -R main.ha
