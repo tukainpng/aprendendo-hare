@@ -1,0 +1,11 @@
+Bom, esse é um pequeno projeto que iniciei que visa ser um build-system
+para a Hare, feito em Hare.
+
+Ele está nos estágios iniciais e é basicamente um shell-script glorificado.
+
+A forma como ele será usado é a seguinte:
+
+- Você edita o build.ha para ele possuir o passo-a-passo do que o seu projeto
+  precisa para ser compilado;
+- Você executa o comando: hare run build.ha;
+- E pronto. Você tem um binário do seu programa.
