@@ -9,7 +9,7 @@ export fn main() void = {
 	let resposta = input();
 
 	switch (resposta) {
-		case "1" => 
+		case "1" =>
 			println("1ª opção")!;
 		case "2" =>
 			println("2ª opção")!;

@@ -1,6 +1,3 @@
 compile:
-	hare build main.ha
-
-clean: main
-	rm main
+	hare build -R main.ha
 

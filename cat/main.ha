@@ -1,5 +1,4 @@
 use fmt;
-use bufio;
 use strings;
 use os;
 use io;
@@ -16,15 +15,8 @@ export fn main() void = {
 	const arquivo = strings::fromutf8(arquivo)!;
 	const arquivo = strings::split(arquivo, "\n");
 
-	lerArquivo(arquivo);
-
-};
-
-fn lerArquivo(lines: []str) void = {
-	let total = len(lines);
-
-	for (let i = 0z; i < total) {
-		fmt::println(lines[i])!;
-		i += 1;
+	for (let i .. arquivo) {
+		fmt::println(i)!;
 	};
 };
+
