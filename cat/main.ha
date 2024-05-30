@@ -1,12 +1,12 @@
 use fmt;
-use strings;
 use os;
 use io;
+use strings;
 
 export fn main() void = {
 
 	if (len(os::args) != 2) {
-		fmt::fatalf("Uso: {} <nome do arquivo>", os::args[0]);
+		fmt::fatalf("Uso: {} <arquivo>", os::args[0]);
 	};
 
 	const caminho = os::args[1];

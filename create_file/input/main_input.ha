@@ -9,8 +9,8 @@ fn nomeDoArquivo() str = {
 	return strings::fromutf8(inputUser)!;
 };
 
+// Criação de arquivos vazios com nome dado por input do usuário
 export fn main() void = {
-	// Criação de arquivos vazios com nome dado por input do usuário
 
 	let arquivo = nomeDoArquivo();
 	if (os::exists(arquivo)) {

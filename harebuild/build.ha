@@ -2,6 +2,10 @@ use fmt;
 use os;
 use os::exec;
 
+// Struct base para a compilação.
+//
+// Tudo o que ele armazena são algumas strings usadas no comando:
+// - hare build
 type Build = struct {
 	flag:	str,
 	target:	str,
@@ -10,6 +14,8 @@ type Build = struct {
 	src:	str,
 };
 
+// Função que executa o comando ``hare build`` com o struct Build como
+// parâmetro.
 fn build(b: Build) void = {
 	let cmd = exec::cmd(
 		"hare",

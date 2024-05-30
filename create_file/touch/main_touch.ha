@@ -1,8 +1,8 @@
 use fmt;
 use os;
 
+// Criação de arquivos estilo touch
 export fn main() void = {
-	// Criação de arquivos estilo touch
 
 	if (len(os::args) != 2) {
 		fmt::fatalf("Uso: {} <nome do arquivo>", os::args[0]);
