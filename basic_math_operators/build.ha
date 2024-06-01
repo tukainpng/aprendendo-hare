@@ -2,8 +2,8 @@ use fmt;
 use os;
 use os::exec;
 
-def src_file = "hello.ha";
-def out = "hello";
+def src_file = "main.ha";
+def out = "operadores básicos";
 
 type Build = struct {
 	flag:	str,

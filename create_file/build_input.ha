@@ -2,8 +2,8 @@ use fmt;
 use os;
 use os::exec;
 
-def src_file = "hello.ha";
-def out = "hello";
+def src_file = "main_input.ha";
+def out = "input";
 
 type Build = struct {
 	flag:	str,
